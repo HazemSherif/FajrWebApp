@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cef735c-f9f5-465b-9d2a-7b993ee1ed72" name="Changes" comment="Geo Location">
+      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/dataDriven.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CalendarTests/CalendarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalendarTests/CalendarTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
@@ -36,6 +39,12 @@
   }
 }</component>
   <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="HazemSherif" />
+        <option name="repository" value="FajrWebApp" />
+      </RepoCoordinatesHolder>
+    </option>
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="0e24999e-4bd3-408f-91e9-2c1e6d17af2b" />
@@ -63,7 +72,8 @@
     "last_opened_file_path": "C:/Users/radwa/OneDrive/Desktop/Automation/poi-src-5.2.4-20230921-5.2.4",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,7 +81,25 @@
       <recent name="C:\Users\radwa\OneDrive\Desktop\Automation\FajrWebApp\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CalendarTests.applyDaylightSaving">
+  <component name="RunManager" selected="TestNG.CalendarTests.accessData">
+    <configuration name="CalendarTests.accessData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FajrWebApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CalendarTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CalendarTests" />
+      <option name="MAIN_CLASS_NAME" value="CalendarTests.CalendarTests" />
+      <option name="METHOD_NAME" value="accessData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalendarTests.applyDaylightSaving" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FajrWebApp" />
       <extension name="coverage">
@@ -126,24 +154,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalendarTests.testGetCurrentLocation (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FajrWebApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CalendarTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CalendarTests" />
-      <option name="MAIN_CLASS_NAME" value="CalendarTests.CalendarTests" />
-      <option name="METHOD_NAME" value="testGetCurrentLocation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CalendarTests.testGetCurrentLocation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FajrWebApp" />
       <extension name="coverage">
@@ -164,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CalendarTests.accessData" />
         <item itemvalue="TestNG.CalendarTests.applyDaylightSaving" />
         <item itemvalue="TestNG.CalendarTests.gettingUserCurrentLocation" />
         <item itemvalue="TestNG.CalendarTests.testCustomCommand" />
         <item itemvalue="TestNG.CalendarTests.testGetCurrentLocation" />
-        <item itemvalue="TestNG.CalendarTests.testGetCurrentLocation (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697536702589</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Geo Location">
+      <option name="closed" value="true" />
+      <created>1697614923352</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697614923352</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,19 +244,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/Radwa" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>

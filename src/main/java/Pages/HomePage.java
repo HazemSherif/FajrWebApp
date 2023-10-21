@@ -144,6 +144,7 @@ public class HomePage extends BasePage {
 
     public void clickOnDayLightSavingsButton(){
         WebElement dayLightRadioButton = driver.findElement(dayLightButtonBy);
+        //scrollToElement(dayLightRadioButton,dayLightButtonBy);
         clickOnElement(dayLightRadioButton,dayLightButtonBy);
     }
 

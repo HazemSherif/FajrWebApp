@@ -37,7 +37,6 @@ public class BaseTests {
         //System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
         driver = new ChromeDriver(getChromeOptions());
         devtools = driver.getDevTools();
-        devtools.createSession();
         goHome();
     }
 
@@ -62,7 +61,7 @@ public class BaseTests {
             }
         }
     }*/
-    //@AfterClass
+    @AfterClass
     public  void tearDown(){
      driver.quit();
     }

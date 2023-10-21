@@ -1,6 +1,7 @@
 package Pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -54,6 +55,12 @@ public class BasePage {
     public void setElement(WebElement element,By elementBy ,String value){
         waitVisibilityOf(elementBy);
        element.sendKeys(value);
+    }
+
+    public void scrollToElement(WebElement element, By elementBy){
+        waitVisibilityOf(elementBy);
+        JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+        jsExecutor.executeScript("arguments[0].scrollIntoView(true);", element);
     }
 
 
